@@ -86,7 +86,7 @@ public class Main {
                     account1.setAccountNumber(accountNumber);
 
 
-                    for (int i = 0; i < arrayList.size(); i++){
+                    for (int i = 0; i < arrayList.size(); i++) {
                         if (account1.getAccountNumber() == arrayList.get(i).getAccountNumber()) {
                             logedInCustomer.account.transfer(money1, arrayList.get(i).account, logedInCustomer.account);
                             System.out.println("Your asset: " + logedInCustomer.account.asset);
